@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Logo from "./Logo";
 
 const NavBar = ({ setFile }) => {
   const handleClick = () => {
@@ -10,15 +11,12 @@ const NavBar = ({ setFile }) => {
     <Nav>
       <div className='nav-logo'>
         <Link to='/' onClick={handleClick}>
-          <img
-            src='https://eci.gov.in/uploads/monthly_2022_06/logo.png.d0e6aee2d64193769bffbc6e720bbe96.png'
-            alt='logo'
-          />
+          <Logo />
         </Link>
       </div>
       <div className='nav-link'>
         <Link to='/' onClick={handleClick}>
-          <p>Home</p>
+          <h5>Home</h5>
         </Link>
       </div>
     </Nav>
@@ -44,6 +42,9 @@ const Nav = styled.nav`
   }
   .nav-link {
     margin-right: 5rem;
+  }
+  .nav-link a {
+    color: blue;
   }
 
   @media (max-width: 676px) {
