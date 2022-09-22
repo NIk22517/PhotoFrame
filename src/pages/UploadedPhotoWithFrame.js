@@ -43,7 +43,7 @@ const Photo = styled.div`
   height: 1080px;
 
   @media (max-width: 676px) {
-    height: 45vh;
+    height: 50vh;
   }
 `;
 
