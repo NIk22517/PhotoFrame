@@ -25,11 +25,15 @@ export default ChooseFrames;
 
 const ChooseFrameStyle = styled.main`
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .grid-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
-    gap: 3rem;
+    grid-column-gap: 5rem;
+    grid-row-gap: 3rem;
     margin: 2rem;
   }
 
