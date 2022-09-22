@@ -32,8 +32,8 @@ const ChooseFrameStyle = styled.main`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
-    grid-column-gap: 5rem;
-    grid-row-gap: 3rem;
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
     margin: 2rem;
   }
 

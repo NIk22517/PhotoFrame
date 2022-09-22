@@ -53,7 +53,7 @@ const ImageContainer = styled.div`
     );
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
     border: none;
-    padding: 1rem 4rem;
+    padding: 1rem 3rem;
     border-radius: 25px;
     cursor: pointer;
     color: #342ead;

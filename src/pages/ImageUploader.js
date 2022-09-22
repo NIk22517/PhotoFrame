@@ -63,8 +63,6 @@ const FileUpload = styled.header`
   label {
     display: block;
     position: relative;
-    width: 200px;
-    height: 50px;
     border-radius: 25px;
     background-image: linear-gradient(
       to bottom,
@@ -90,7 +88,7 @@ const FileUpload = styled.header`
     cursor: pointer;
     transition: all 0.2s ease-out;
     color: #342ead;
-    font-size: 20px;
+    padding: 0.8rem 1.5rem;
     margin-bottom: 3rem;
   }
 

@@ -36,7 +36,7 @@ const Nav = styled.nav`
   padding: 1rem;
 
   img {
-    width: 300px;
+    width: 250px;
   }
 
   .nav-logo {
