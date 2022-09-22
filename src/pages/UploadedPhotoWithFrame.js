@@ -1,9 +1,9 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
-import FrameOne from "../assets/frame1.png";
-import DownloadImage from "./DownloadImage";
+import DownloadImage from "../components/DownloadImage";
+import SelectedFrame from "../components/SelectedFrame";
 
-const PhotoFrame = ({ file }) => {
+const UploadedPhotoWithFrame = ({ file }) => {
   const downloadElement = useRef(null);
 
   return (
@@ -19,7 +19,7 @@ const PhotoFrame = ({ file }) => {
           </div>
 
           <div className='frame-image'>
-            <img className='frame-img' src={FrameOne} alt='frame' />
+            <SelectedFrame />
           </div>
         </PhotoFrameContainer>
       </Photo>
@@ -28,7 +28,7 @@ const PhotoFrame = ({ file }) => {
   );
 };
 
-export default PhotoFrame;
+export default UploadedPhotoWithFrame;
 
 const PhotoFrameWithDownlod = styled.div`
   margin-top: 2rem;

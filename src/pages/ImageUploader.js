@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import ShowUploadedImage from "./ShowUploadedImage";
+import ShowUploadedImage from "../components/ShowUploadedImage";
 
 const ImageUploader = ({ file, setFile }) => {
   const handleChange = (e) => {

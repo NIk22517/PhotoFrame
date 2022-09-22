@@ -28,11 +28,12 @@ const NavBar = ({ setFile }) => {
 export default NavBar;
 
 const Nav = styled.nav`
-  height: 10vh;
+  height: 10%;
   background-color: #edf4f2;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem;
 
   img {
     width: 300px;
