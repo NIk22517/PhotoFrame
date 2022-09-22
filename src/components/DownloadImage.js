@@ -2,13 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import * as htmlToImage from "html-to-image";
 
-const DownloadImage = ({ downloadElement, heigth }) => {
+const DownloadImage = ({ downloadElement }) => {
   const downloadImage = async () => {
     const dataUrl = await htmlToImage.toPng(downloadElement.current);
 
     // download image
     const link = document.createElement("a");
-    link.download = "html-to-img.png";
+    link.download = "Election Commission.png";
     link.href = dataUrl;
     link.click();
   };
