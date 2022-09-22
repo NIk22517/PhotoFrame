@@ -1,19 +1,15 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter} from "react-router-dom";
-
+import { BrowserRouter } from "react-router-dom";
 
 import GlobalStyle from "./globalStyle";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Pages from "./pages/Pages";
 
-
 const App = () => {
   const [file, setFile] = useState(null);
 
-  useEffect(() => {
-    console.log("render");
-  }, [file]);
+  useEffect(() => {}, [file]);
 
   return (
     <BrowserRouter>

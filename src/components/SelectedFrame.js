@@ -8,7 +8,6 @@ const SelectedFrame = () => {
   const filterData = FrameData.filter((item) =>
     item.frame_path === name.framename ? item : ""
   );
-  console.log(filterData);
   return (
     <div>
       {filterData.map((frame) => {
