@@ -86,7 +86,7 @@ const Nav = styled.nav`
     inset: 0 0 0 0;
     z-index: -1;
     transition: transform 0.3s ease;
-    border-radius: 5px;
+    border-radius: 0.5rem;
   }
 
   h5::before {
