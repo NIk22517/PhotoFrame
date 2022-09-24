@@ -47,7 +47,7 @@ const Nav = styled.nav`
     margin-right: 5rem;
   }
   a h5 {
-    color: blue;
+    color: #342ead;
     position: relative;
     z-index: 2;
   }
