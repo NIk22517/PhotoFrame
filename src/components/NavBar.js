@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Logo from './Logo';
 
 const NavBar = ({ setFile }) => {
   const handleClick = () => {
@@ -10,11 +11,7 @@ const NavBar = ({ setFile }) => {
     <Nav>
       <div className='nav-logo'>
         <Link to='/' onClick={handleClick}>
-          <h5>
-            <span className='sdm'>SDM</span>{" "}
-            <span className='rural'>RURAL</span>{" "}
-            <span className='shimla'>SHIMLA</span>{" "}
-          </h5>
+          <Logo />
         </Link>
       </div>
       <div className='nav-link'>
