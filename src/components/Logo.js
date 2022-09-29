@@ -3,10 +3,8 @@ import styled from "styled-components";
 const Logo = () => {
   return (
     <LogoStyle>
-      <div className='logo-color'>
-        <div className='orange'></div>
-        <div className='white'></div>
-        <div className='green'></div>
+      <div className='logo-img'>
+        <img src="https://eci.gov.in/uploads/monthly_2018_10/eci-logo.png.2e8f591ce7b8147f8f3148bcd50de79e.png" alt="logo" />
       </div>
 
       <div className='logo-heading'>
@@ -21,48 +19,9 @@ export default Logo;
 const LogoStyle = styled.div`
   display: flex;
   align-items: center;
-  gap: 1rem;
-  .logo-color {
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-    /* padding: 1rem; */
-    margin: 2rem 0rem;
-    rotate: 320deg;
-  }
-  .logo-heading h5 {
-    color: blue;
+
+  .logo-img img {
+    width: 50px;
   }
 
-  .orange,
-  .white,
-  .green {
-    width: 30px;
-    height: 8px;
-    position: relative;
-    border: 2px solid black;
-  }
-  .orange {
-    background-color: orange;
-  }
-  .white {
-    background-color: white;
-  }
-  .green {
-    background-color: green;
-  }
-
-  .orange::before,
-  .white::before,
-  .green::before {
-    content: "";
-    width: 5px;
-    height: 100%;
-    position: absolute;
-    background-color: grey;
-    border: 3px solid grey;
-    top: -2px;
-    left: 30px;
-    border-radius: 50%;
-  }
 `;

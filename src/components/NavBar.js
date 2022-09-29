@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import Logo from './Logo';
+import Logo from "./Logo";
 
 const NavBar = ({ setFile }) => {
   const handleClick = () => {
@@ -40,6 +40,7 @@ const Nav = styled.nav`
   .nav-logo {
     margin-left: 5rem;
   }
+
   .nav-link {
     margin-right: 5rem;
   }
@@ -103,10 +104,10 @@ const Nav = styled.nav`
       width: 200px;
     }
     .nav-logo {
-      margin-left: 1rem;
+      margin-left: 0rem;
     }
     .nav-link {
-      margin-right: 1rem;
+      margin-right: 0rem;
     }
   }
 `;
