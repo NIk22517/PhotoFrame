@@ -1,9 +1,9 @@
-import Frame1 from "./assets/Frame1.png";
-import Frame2 from "./assets/Frame2.png";
-import Frame3 from "./assets/Frame3.png";
-import Frame4 from "./assets/Frame4.png";
-import Frame5 from "./assets/Frame5.png";
-import Frame6 from "./assets/Frame6.png";
+import Frame1 from "./assets/frame1.png";
+import Frame2 from "./assets/frame2.png";
+import Frame3 from "./assets/frame3.png";
+import Frame4 from "./assets/frame4.png";
+import Frame5 from "./assets/frame5.png";
+import Frame6 from "./assets/frame6.png";
 
 export const FrameData = [
   {
